@@ -7,7 +7,7 @@ from model import create_model
 from training import train_model
 
 # Define directories
-base_dir = '/home/nico/fruit_vegetable_classifier/dataset/'
+base_dir = './dataset/'
 train_dir = os.path.join(base_dir, 'train')
 validation_dir = os.path.join(base_dir, 'validation')
 test_dir = os.path.join(base_dir, 'test')
